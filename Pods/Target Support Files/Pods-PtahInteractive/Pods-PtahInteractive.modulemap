@@ -1,0 +1,6 @@
+framework module Pods_PtahInteractive {
+  umbrella header "Pods-PtahInteractive-umbrella.h"
+
+  export *
+  module * { export * }
+}

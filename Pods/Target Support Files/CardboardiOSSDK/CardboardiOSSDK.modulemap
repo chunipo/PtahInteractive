@@ -1,0 +1,6 @@
+framework module CardboardiOSSDK {
+  umbrella header "CardboardiOSSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

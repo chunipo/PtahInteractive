@@ -1,0 +1,86 @@
+#define MAS_SHORTHAND
+
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry/Masonry.h"
+
+// rgb颜色转换（16进制->10进制）
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//统一的烧灰的背景颜色
+#define GrayColor UIColorFromRGB(15724527)
+
+//灰色
+#define UIgracolor [UIColor grayColor]
+
+
+#define LFScreenW ([UIScreen mainScreen].bounds.size.width)
+#define LFScreenH ([UIScreen mainScreen].bounds.size.height)
+
+
+#import "UIView+Extension.h"
+#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+
+
+#import "UILabel+LabelAdd.h"
+#import "UIImageView+ImageViewAdd.h"
+
+
+//load
+
+
+
+
+
+#define picw 20
+#define pich 20
+
+#define kid 20
+#define btnW 50
+#define btnH 50
+#define low 5
+
+//上部分的高度
+#define TopH LFScreenH*1/11
+
+
+//首页以及上部分背景色
+#define TopBackGroudeColor UIColorFromRGB(240116)
+
+
+//首页被选中的图标
+
+#define HomeSelected @"home_home-2(1)"
+#define HotSelected  @"home_hot-2(1)"
+#define LocalVideoSelected  @"home_Local-Viedo-2"
+#define MineSelected  @"home_Mine-2(1)"
+
+
+//滑动条颜色
+#define scroline UIColorFromRGB(16755456)
+//收藏的颜色
+#define FavoritesImg @"project_favorties-2"
+//分辨率
+#define cqdy @"project_1080p"
+#define Highdy @"project_720p"
+
+//我的－背景图片
+#define MineBackView @"mine_user bakcground"
+
+//收藏／下载栏最右侧竖条
+#define longStringColor [UIColor colorWithRed:85./255 green:196./255 blue:245./255 alpha:1]
+
+
+//
+#import "MBProgressHUD.h"
+
+#import "Canvas.h"
+#import "FBShimmering.h"
+#import "FBShimmeringView.h"
+#import "SVProgressHUD.h"
+
+//高清图
+#define ThumbnailImg @"http://52.18.202.69:8080/files/tetrisvr/%@.jpg"
+//网络请求
+#define favoriteUrl @"http://52.18.202.69:8080/tetrisvr/service/vritem/favorite"
+//#define favoriteUrl @"http://192.168.88.212:8080/tetrisvr/service/vritem/favorite"

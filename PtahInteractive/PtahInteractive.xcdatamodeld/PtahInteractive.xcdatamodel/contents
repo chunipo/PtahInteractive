@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="Collect" syncable="YES">
+        <attribute name="displayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fenbianP" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="History" syncable="YES">
+        <attribute name="displayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fenbianP" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Local" syncable="YES">
+        <attribute name="imgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="miniImg" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="originalImg" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="originalpic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selectState" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Login" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Collect" positionX="-63" positionY="9" width="128" height="135"/>
+        <element name="History" positionX="-63" positionY="45" width="128" height="135"/>
+        <element name="Local" positionX="-63" positionY="63" width="128" height="120"/>
+        <element name="Login" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>
